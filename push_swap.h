@@ -9,6 +9,7 @@
 typedef struct s_stack
 {
     int value;
+	int				index;
     struct s_stack *next;
 } t_stack;
 
@@ -39,8 +40,8 @@ void rrb(t_stack **stack);  // Reverse rotate b
 void rrr(t_stack **stack_a, t_stack **stack_b);  // Reverse rotate both
 
 // 📌 Sorting Algorithms
-void sort_three(t_stack **stack);
-void sort_five(t_stack **stack);
-void push_swap(t_stack **stack_a, t_stack **stack_b);
+// void sort_three(t_stack **stack);
+// void sort_five(t_stack **stack);
+// void push_swap(t_stack **stack_a, t_stack **stack_b);
 
 #endif
